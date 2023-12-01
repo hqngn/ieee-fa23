@@ -15,14 +15,15 @@ export default function Home() {
           priority
         />
       </div>
-      
-      <form id="urlForm">
-          <label for="urlInput">Enter the link for your Spotify Playlist!:</label>
-          <input type="url" id="urlInput" placeholder="ex: open.spotify.com/playlist/asdf" required></input>
+      <div class="formcontainer">
+        <form id="urlForm">
+            <label for="urlInput">Enter the link for your Spotify Playlist!:</label>
+            <input type="url" id="urlInput" placeholder="ex: open.spotify.com/playlist/asdf" required></input>
 
-          <button type="button" onClick="submitUrl()">Submit</button>
-          
-        </form>
+            <button type="button" onClick="submitUrl()">Submit</button>
+            
+          </form>
+        </div>
 
 
     </main>
