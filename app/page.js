@@ -18,6 +18,8 @@ export default function Home() {
       <div className={styles.formcontainer}>
         <form id="urlForm">
             <label for="urlInput">Enter the link for your Spotify Playlist!:</label>
+            <br>
+            </br>
             <input type="url" id="urlInput" placeholder="ex: open.spotify.com/playlist/asdf" required></input>
 
             <button type="button" onClick="submitUrl()">Submit</button>
