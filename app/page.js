@@ -17,8 +17,8 @@ export default function Home() {
       </div>
       
       <form id="urlForm">
-          <label for="urlInput">URL:</label>
-          <input type="url" id="urlInput" placeholder="Enter the link for your Spotify Playlist!" required></input>
+          <label for="urlInput">Enter the link for your Spotify Playlist!:</label>
+          <input type="url" id="urlInput" placeholder="ex: open.spotify.com/playlist/asdf" required></input>
 
           <button type="button" onClick="submitUrl()">Submit</button>
           
