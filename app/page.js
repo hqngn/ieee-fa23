@@ -14,14 +14,14 @@ export default function Home() {
           height={288}
           priority
         />
-        <form id="urlForm">
+      </div>
+      <form id="urlForm">
           <label for="urlInput">URL:</label>
           <input type="url" id="urlInput" placeholder="Enter the link for your Spotify Playlist!" required></input>
 
           <button type="button" onclick="submitUrl()">Submit</button>
           
         </form>
-      </div>
 
 
     </main>
