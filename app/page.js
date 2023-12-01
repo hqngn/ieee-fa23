@@ -15,6 +15,7 @@ export default function Home() {
           priority
         />
       </div>
+      
       <form id="urlForm">
           <label for="urlInput">URL:</label>
           <input type="url" id="urlInput" placeholder="Enter the link for your Spotify Playlist!" required></input>

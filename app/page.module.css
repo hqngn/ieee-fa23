@@ -78,7 +78,7 @@
   flex-direction: column; /* Change to column to stack elements vertically */
   align-items: center;
   position: relative;
-  padding: 4rem 0;
+  /*padding: 4rem 0;*/
 }
 
 .center::before {
