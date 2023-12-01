@@ -74,7 +74,8 @@
 
 .center {
   display: flex;
-  justify-content: center;
+  /*justify-content: center;*/
+  flex-direction: column; /* Change to column to stack elements vertically */
   align-items: center;
   position: relative;
   padding: 4rem 0;
