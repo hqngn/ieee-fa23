@@ -7,7 +7,7 @@ export default function Home() {
 
       <div className={styles.center}>
         <Image
-          className={styles.logo}
+          //className={styles.logo}
           src="/heartlogo.jpg"
           alt="Heart Logo"
           width={459}
