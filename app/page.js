@@ -10,6 +10,8 @@ export default function Home() {
           className={styles.logo}
           src="/heartlogo.jpg"
           alt="Heart Logo"
+          width={459}
+          height={288}
           priority
         />
       </div>
