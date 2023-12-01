@@ -7,6 +7,12 @@
   min-height: 100vh;
 }
 
+#urlInput {
+  width: 100%; /* Set the width to 100% to make it span the entire container */
+  box-sizing: border-box; /* Include padding and border in the width */
+  padding: 8px; /* Add some padding for better visual appearance */
+}
+
 .description {
   display: inherit;
   justify-content: inherit;
