@@ -1,9 +1,17 @@
 import Image from 'next/image'
+import Head from 'next/head'
 import styles from './page.module.css'
+import Playbutton from './Playbutton.js'
 
 export default function Home() {
   return (
     <main className={styles.main}>
+
+      <Head>
+
+        <script type="text/javascript" src="./scripts/scripts.js"></script>
+
+      </Head>
 
       <div className={styles.center}>
         <Image
@@ -17,12 +25,12 @@ export default function Home() {
       </div>
       <div className={styles.formcontainer}>
         <form id="urlForm">
-            <label for="urlInput">Enter the link for your Spotify Playlist!:</label>
+            <label htmlFor="urlInput">Enter the link for your Spotify Playlist!:</label>
             <br>
             </br>
             <input type="url" id="urlInput" placeholder="ex: open.spotify.com/playlist/asdf" required></input>
 
-            <button type="button" onClick="submitUrl()">Submit</button>
+            <Playbutton />
             
           </form>
         </div>
