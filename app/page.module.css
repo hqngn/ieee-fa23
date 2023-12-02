@@ -9,7 +9,7 @@
 .backbutton {
   display: flex;
   flex-direction: column;
-  /*justify-content: space-between;*/
+  justify-content: center; /* Center content vertically */
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
