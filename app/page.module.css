@@ -12,6 +12,8 @@
   justify-content: center; /* Center content vertically */
   align-items: center;
   padding: 6rem;
+  width: 150px; 
+  height: 50px; 
   min-height: 100vh;
   background-color: black;
 }
