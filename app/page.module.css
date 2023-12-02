@@ -6,6 +6,15 @@
   padding: 6rem;
   min-height: 100vh;
 }
+.backbutton {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: space-between;*/
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  background-color: black;
+}
 .formcontainer {
   display: flex;
   flex-direction: column;
