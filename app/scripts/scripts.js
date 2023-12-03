@@ -139,7 +139,7 @@ export async function getCloseSongs(token, playlistID, BPM) {
 
     let bpmIndexArr = [];
 
-    for (let i = 0; i < len; i++) {
+    for (let i = 0; i < playlistBody["tracks"]["items"].length; i++) {
 
         let tracksResponse = await fetch(
             
