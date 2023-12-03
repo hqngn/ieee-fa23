@@ -119,9 +119,7 @@ export async function getCloseSongs(token, playlistID, BPM) {
 
     let artists = [];
 
-    let len = playlistBody["tracks"]["items"].length;
-
-    for (let i = 0; i < len; i++) {
+    for (let i = 0; i < playlistBody["tracks"]["items"].length; i++) {
 
         tracks.push(playlistBody["tracks"]["items"][i]["track"]["id"])
 
